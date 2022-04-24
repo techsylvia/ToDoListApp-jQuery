@@ -17,7 +17,7 @@ function newItem() {
     //the second function fires, and so on.
   }
 
-  li.on("DBLclick", function crossOut() {
+  li.on("dblclick", function crossOut() {
     li.toggleClass("strike"); //Toggles between hide() & show() for the selected elements.
     //This method checks the selected elements for visibility,
     //show() is run if an element is hidden. hide() is run if an element is visible.

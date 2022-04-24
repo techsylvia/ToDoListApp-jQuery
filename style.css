@@ -16,7 +16,6 @@ body {
 
 form {
   display: inline-block;
-  box-shadow: #6643b5;
 }
 
 input {
@@ -53,7 +52,6 @@ ol li:nth-child(even) {
 
 .strike {
   text-decoration: line-through;
-  color: #6643b5;
 }
 
 li:hover {
@@ -68,6 +66,6 @@ li > crossOutButton {
   background: none;
   border: none;
   float: right;
-  color: #6643b5;
+  color: #025f70;
   font-weight: 800;
 }
