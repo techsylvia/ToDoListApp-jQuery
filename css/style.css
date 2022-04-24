@@ -1,18 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
 
-body {
-  font: normal normal 13px/16px "Open Sans", sans-serif;
-  background: #dfdfdf;
-  color: #025f70;
+* {
+  box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 14px;
+  color: #af7eeb;
+}
+
+/* main content */
 .container {
-  padding: 20px;
-  width: 300px;
-  margin: 0 auto;
-  margin-top: 40px;
-  background: white;
-  border-radius: 5px;
+  width: 100vw;
+  height: 100vh;
+  background: #f1cffc;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 form {
