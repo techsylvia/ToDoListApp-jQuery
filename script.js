@@ -1,7 +1,19 @@
 //1.
 
+let inputSelector = $("#input");
+inputSelector.on("keyup", (event) => {
+  let addButton = $("#button");
+  // keyCode13 == enterButton
+  if (event.keyCode === 13) {
+    event.preventDefault();
+    // Trigger the button element with a click
+    addButton.click();
+  }
+});
+
 function newItem() {
   let li = $("<li></li>"); // creating li for HTML
+
   let inputValue = $("#input").val(); // selecting the id="input" in HTML file
   li.append(inputValue);
 
@@ -9,12 +21,6 @@ function newItem() {
     alert("Type something");
   } else {
     $("#list").append(li); // selecting id="list" from the HTML file
-  }
-  //2.  Crossing out an item from the list of items:
-  function crossOut() {
-    li.toggleClass("strike"); // toggle() attaches two or more functions to toggle between for the click event
-    //for the selected elements. When clicking on an element, the first specified function fires, when clicking again,
-    //the second function fires, and so on.
   }
 
   li.on("dblclick", function crossOut() {
@@ -36,4 +42,6 @@ function newItem() {
   }
   //4. Reordering the items:
   $("#list").sortable();
+
+  $("#input").val("");
 }
