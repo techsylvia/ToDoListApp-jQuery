@@ -22,4 +22,16 @@ $(function () {
     //This method checks the selected elements for visibility,
     //show() is run if an element is hidden. hide() is run if an element is visible.
   });
+  // Adding the delete X
+  let crossOutButton = $("<crossOutButton></crossOutButton>");
+  $(document.createTextNode("X"));
+  li.append(crossOutButton);
+  //what crossOutButton is suppsed to do:
+  crossOutButton.on("click", deleteListItem);
+  //create a function to delete
+  function deleteListItem() {
+    li.addClass("delete");
+  }
+  //4. Reordering the items:
+  $("#list").sortable();
 });
