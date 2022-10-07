@@ -3,16 +3,17 @@
 ToDo list is a simple web application to save Your daily tasks in order not to miss anything.
 
 ## Features
-Type 
-Mark task as complete
-Delete task 
+Type <br>
+Mark task as complete <br>
+Delete task <br>
 
 
 ## Technologies used ⌨️
-HTML
-CSS
-JavaScript/jQuery 
-jQuery UI
+✨ HTML <br>
+✨ CSS <br>
+✨ JavaScript/jQuery <br>
+✨ jQuery UI <br>
 
 
-<img width="500" alt="Screenshot 2022-10-07 at 19 05 33" src="https://user-images.githubusercontent.com/67543909/194617186-e4eab96c-60e0-4762-80ab-465e32bb30b5.png">
+
+<img width="500" alt="Screenshot 2022-10-07 at 19 40 53" src="https://user-images.githubusercontent.com/67543909/194617682-d6f79f71-7c2e-4692-869e-6d0c9b38c6d0.png">
